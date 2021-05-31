@@ -1,9 +1,9 @@
 module Acc(
-  input signed [32:0] sub,
+  input [32:0] sub,
   input [2:0] mux1,
   input [3:0] i,
   input rst,
-  output reg signed [32:0] acc
+  output reg [32:0] acc
 );
 
 always @ (i or rst)

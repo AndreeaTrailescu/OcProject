@@ -1,7 +1,7 @@
 module Mux2(
   input comp,
   input signed [32:0] f,
-  output reg [32:0] mux2
+  output reg signed [32:0] mux2
 );
 
 always @ (comp or f)

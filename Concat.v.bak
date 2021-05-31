@@ -10,7 +10,7 @@ reg signed [10:0] aux;
 always @ (rst or comp or i)
 begin
   if (rst == 1'b0)
-      rez = 11'd0;
+      rez = 12'd0;
   else 
     begin
       rez[11 - i] = comp;

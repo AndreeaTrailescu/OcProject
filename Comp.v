@@ -1,6 +1,6 @@
 module Comp(
-  input signed [32:0] acc,
-  input signed [32:0] f,
+  input [32:0] acc,
+  input [32:0] f,
   output reg comp
 );
 

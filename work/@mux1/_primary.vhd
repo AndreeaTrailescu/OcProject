@@ -4,6 +4,7 @@ entity Mux1 is
     port(
         D               : in     vl_logic_vector(31 downto 0);
         i               : in     vl_logic_vector(3 downto 0);
+        sign            : out    vl_logic;
         mux1            : out    vl_logic_vector(2 downto 0)
     );
 end Mux1;
